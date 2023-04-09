@@ -1,0 +1,41 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .original__header{
+    margin: 20px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .original__movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .myimage{
+    padding: 10px;
+    
+  }
+
+  .original__movies img {
+    
+    height: 350px;
+    width: auto;
+    border-radius: 10%;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+  }
+  
+  .original__movies img:hover{
+    transform: scale(1.1);
+  }
+
+ 
